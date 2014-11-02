@@ -1,0 +1,14 @@
+create a table to store information about weather observation stations: 
+-- No duplicate ID fields allowed
+CREATE TABLE STATION 
+(ID INTEGER PRIMARY KEY, 
+CITY CHAR(20), 
+STATE CHAR(2), 
+LAT_N REAL, 
+LONG_W REAL);
+
+populate the table STATION with a few rows:
+
+INSERT INTO STATION VALUES (13, 'Phoenix', 'AZ', 33, 112); 
+INSERT INTO STATION VALUES (44, 'Denver', 'CO', 40, 105); 
+INSERT INTO STATION VALUES (66, 'Caribou', 'ME', 47, 68);
