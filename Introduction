@@ -1,0 +1,44 @@
+SQL is the standard langyage used for accessing database.
+It is used for retrieval and management of data in relational database.
+SQL --> Structured Query Language.
+It is known as the language for database, which is used to create, modify, deleting, fetching rows etc...
+SQL is an ANSI(American National Standard Institute) standard but there are many different version of SQL.
+All relational database system like Ms Access, SQL server, Oracle, Sybase, MySQL etc.. uses SQL as a language for accessing database.
+
+Also they are using different dialects, such as:
+  --> MS SQL Server using T-SQL,
+  --> Oracle using PL/SQL,
+  --> MS Access version of SQL is called JET SQL (native format) etc.
+  
+Why SQL?
+--> Allows user to access data in relational database management system.
+--> Allows user to describe the database.
+--> Allows the user to define the data in database and manipulate the data.
+--> Allows to embed within other language using SQL modules, libraries & pre-compilers.
+--> Allows user to create and drop database and table.
+--> Allows user to create view, stored procedure, functions in database.
+--> Allows user to set permission on tables, views and procedures.
+
+History:
+--> 1970 -- Dr. Edgar F. "Ted" Codd of IBM is known as the father of relational databases. He described a relational model for 
+    databases.
+--> 1974 -- Structured Query Language appeared.
+--> 1978 -- IBM worked to develop Codd's ideas and released a product named System/R.
+--> 1986 -- IBM developed the first prototype of relational database and standardized by ANSI. The first relational database 
+    was released by Relational Software and its later becoming Oracle.
+    
+SQL Process:
+    Whenever we execute any SQL command for any RDBMS system, the sytem determines the best way to carry out the request and SQL engine figures out
+    how to interpret the task.
+    
+    There are various componenet included in the process. These componenet are query dispatcher, Optimization Engines, Classic Query Engines,
+    SQL query engine etc.
+    Classic query engine handles all non-SQL queries but SQL query engine won't handle logical files.
+    
+The standard SQL command to interact with Database are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP.
+
+These commands are classified in groups based on their nature:
+
+1) DDL(Data Definition Language)
+2) DML(Data Manipulation Language)
+3) DCL(Data Control Lnguage)
